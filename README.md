@@ -52,7 +52,7 @@ The `cacheSolve` function aim to reduce the computation time for the costy matri
       
       real_x <- x$get()
       
-      inverse_x <- solve(x, ...)
+      inverse_x <- solve( real_x, ...)
       
       x$setinverse(inverse_x)
       
