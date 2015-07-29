@@ -42,7 +42,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
   
-  ## First inverse of the ,atrix is fetched using getinverse() function.
+  ## First inverse of the matrix is fetched using getinverse() function.
   inverse_x <- x$getinverse()
   
   ## If the value received is not NULL, it's value is returned.
